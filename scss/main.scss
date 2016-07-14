@@ -1,0 +1,37 @@
+/* Bootstrap Variables */
+$icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+
+/* Import Bootstrap */
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 700;
+  color: #EE5F2D;
+  margin-bottom: 30px;
+}
+
+a {
+  color: #B3DC93;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+ul {
+  margin-left: 200px;
+  list-style: none;
+  font-size: 2em;
+}
+
+.list-inline {
+  text-align: center;
+}
